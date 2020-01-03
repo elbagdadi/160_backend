@@ -1,0 +1,22 @@
+    {% extends 'base.html.twig' %}
+    {% block body %}
+       <div class="text-center">
+           <h3>My Symfony 4 sample project</h3>
+           <div class="jumbotron text-center">
+               <example></example>
+               <template id="main-page">
+                <v-ons-page>
+                    <v-ons-toolbar>
+                    <div class="center">Title</div>
+                    </v-ons-toolbar>
+
+                    <p style="text-align: center">
+                    <v-ons-button @click="$ons.notification.alert('Hello World!')">
+                        Click me!
+                    </v-ons-button>
+                    </p>
+                </v-ons-page>
+                </template>
+           </div>
+       </div>
+    {% endblock %}

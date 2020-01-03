@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.28.2",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "onsenui": "^2.10.10",
+    "vue-onsenui": "^2.6.2"
+  }
+}
